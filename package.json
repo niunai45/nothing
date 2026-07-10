@@ -1,0 +1,8 @@
+{
+	"name": "nothing-web",
+	"version": "1.0.0",
+	"description": "A minimalist web project with 3D visualization",
+	"dependencies": {
+		"@vercel/analytics": "^2.0.1"
+	}
+}

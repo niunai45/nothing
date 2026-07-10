@@ -231,6 +231,11 @@
         <a href="/" class="btn-home">返回首页</a>
     </div>
 
+    <script type="module">
+        import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@2/dist/index.mjs';
+        inject();
+    </script>
+
     <script>
         // 生成随机星星
         const starsContainer = document.getElementById('stars');
